@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "helvetica-rounded-bold";
+  src: url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff2")
+      format("woff2"),
+    url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
+      format("woff");
+}
+
+body {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #1e272e;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.navbar img {
+  float: left;
+  margin: auto;
+  padding: 15px;
+  padding-left: 60px;
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: white;
+  align-items: center;
+  padding: 20px;
+  padding-right: 60px;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "helvetica-rounded-bold";
+}
+
+.navbar a:hover {
+  color: #d92c2c;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+  height: 1500px;
+}
