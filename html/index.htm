@@ -21,17 +21,21 @@
   </head>
   <body>
     <div class="navbar">
-      <img src="../assets/svg/LogoBlanc - ProjetWeb.svg" alt="" />
+      <a href="#hero-page">
+        <img src="../assets/svg/LogoBlanc - ProjetWeb.svg" />
+      </a>
       <div class="navbar-text">
-        <a href="support">support.</a>
+        <a href="#support">support.</a>
         <a href="monde">monde.</a>
         <a href="economie">economie.</a>
         <a href="russie">russie.</a>
         <a href="ukraine">ukraine.</a>
       </div>
     </div>
+
     <div class="main">
-      <div class="hero-page">
+      <!-- Hero Page -->
+      <div id="hero-page" class="hero-page">
         <div class="text-hero">
           <h1>Zachem?</h1>
           <h1>L'Ukraine au <span class="red">front</span>.</h1>
@@ -40,6 +44,24 @@
           <button class="btn-ghost">support.</button>
         </div>
       </div>
+
+      <!-- Support Page -->
+      <div id="support" class="support">
+        <img src="../assets/img/qr-code.png" alt="" />
+        <div class="text-support">
+          <h1>Supporter</h1>
+          <h1>L'<span class="red">Ukraine</span>.</h1>
+          <p>Payment par BTC, ETC et USDT</p>
+          <a
+            href="https://www.blockchain.com/btc/address/357a3So9CbsNfBBgFYACGvxxS6tMaDoa1P"
+          >
+            <button class="btn-ghost">donation.</button>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Page -->
+      <div class="footer"></div>
     </div>
   </body>
 </html>
