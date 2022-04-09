@@ -1,9 +1,9 @@
 @font-face {
   font-family: "helvetica-rounded-bold";
   src: url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff2")
-      format("woff2"),
-    url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
-      format("woff");
+  format("woff2"),
+  url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
+  format("woff");
 }
 
 body {
@@ -13,62 +13,123 @@ body {
   border:0px;
 }
 
+button{
+  font-family: 'helvetica-rounded-bold';
+  font-weight: normal;
+  color: white;
+  font-size: 42px;
+  width: 300px;
+  height: 75px;
+  margin: 0px;
+  margin-right: 2.5%;
+  padding: 0px;
+  border:0px;
+}
+
+button:hover {
+  background-color: #fc3333;
+  border-color:#fc3333;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+button:active{
+    background-color: #ad2222;
+    border-color:#ad2222
+}
+
+.btn-full {
+  background-color: #d92c2c;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: #d92c2c;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.main {
+  font-family: Arimo;
+  font-weight: bolder;
+  height: 1500px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+
+
 .navbar {
-  overflow:hidden;
-  z-index: 2;
   background-color: #1e272e;
-  position: sticky;
-  top: 0;
   width: 100%;
+  top: 0;
+  z-index: 1;
+  position: sticky;
+  overflow:hidden;
 }
 
 .navbar img {
-  float: left;
-  margin: auto;
-  padding: 15px;
-  padding-left: 60px;
   width: 3rem;
   height: 3rem;
+  padding: 15px;
+  padding-left: 5%;
+  float: left;
+  margin: auto;
+}
+
+.navbar img:hover {
+  cursor:pointer;
 }
 
 .navbar a {
+  font-family: "helvetica-rounded-bold";
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  padding-right: 5%;
   float: right;
   display: block;
-  color: white;
-  align-items: center;
-  padding: 20px;
-  padding-right: 60px;
-  text-decoration: none;
-  font-size: 2rem;
-  font-family: "helvetica-rounded-bold";
 }
 
 .navbar a:hover {
   color: #d92c2c;
 }
 
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-  height: 1500px;
+.navbar a:active {
+  color:#ad2222;
 }
 
-
-
-/* The hero image */
 .hero-page {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/ukraine\ destroyed.PNG");
-  
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/family\ ukraine.PNG");
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   margin: 0px;
   padding: 0px;
   border: 0px;
   position: relative;
 }
+
+
+.hero-page h1 {
+  font-size: 114px;
+  color: white;
+  margin:0px;
+}
+
+.text-hero {
+  padding-top:5%;
+  padding-left: 5%;
+}
+
+.text-hero p{
+  color: #0669b2;
+  font-size: 42px;
+  margin-top: 15px;
+  margin-bottom: 5%;
+}
+span.red {
+  color: #d92c2c;
+}
+
