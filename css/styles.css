@@ -89,7 +89,7 @@ div.support {
     background-size:cover;
     margin: 0px;
     padding-left: 10%;
-    padding-right: 15%;
+    padding-right: 10%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     overflow: hidden;
@@ -98,17 +98,19 @@ div.support {
 
 div.support img{
   vertical-align: middle;
-  height: auto;
+  height:100%;
+  min-width: 30%;
+  object-fit: contain;
 }
 
 div.text-support {
   margin-top: 7%;
-  margin-left: auto;
+  margin:auto;
   padding-left: 5%;
 }
 
 div.text-support h1 {
-  font-size: 132px;
+  font-size: 6vmax;
   color:white;
   margin:0px;
   padding:0px;
@@ -121,5 +123,46 @@ div.text-support p {
   padding-bottom: 10%;
   margin: 0;
 }
+
+/* UKRAINE PAGE */
+.ukraine {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  height: 100%;
+}
+
+.grid-img-ukraine-01{ 
+  background-image: url("../assets/img/ukraine\ destroyed.PNG"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.grid-img-ukraine-02 {
+  background-image: url("../assets/img/_123545095_hi074346263.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-item{
+  display: grid;
+  grid-template-rows: 10% auto auto auto;
+}
+.grid-item h2{
+  font-size: 72px;
+  margin:0px;
+  margin-left: 5%;
+  padding:0%;
+}
+.grid-item p {
+  font-size: 32px;
+  margin: auto;
+}
+
+.color {
+  background-color: #1e272e;
+}
+
 
 /* FOOTER */
