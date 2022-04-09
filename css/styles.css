@@ -6,58 +6,6 @@
   format("woff");
 }
 
-body {
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-  border:0px;
-}
-
-button{
-  font-family: 'helvetica-rounded-bold';
-  font-weight: normal;
-  color: white;
-  font-size: 42px;
-  width: 300px;
-  height: 75px;
-  margin: 0px;
-  margin-right: 2.5%;
-  padding: 0px;
-  border:0px;
-}
-
-button:hover {
-  background-color: #fc3333;
-  border-color:#fc3333;
-  transition: all .15s ease;
-  cursor: pointer;
-}
-
-button:active{
-    background-color: #ad2222;
-    border-color:#ad2222
-}
-
-.btn-full {
-  background-color: #d92c2c;
-}
-
-.btn-ghost {
-  background-color: transparent;
-  border-color: #d92c2c;
-  border-width: 5px;
-  border-style: solid;
-}
-
-.main {
-  font-family: Arimo;
-  font-weight: bolder;
-  height: 1500px;
-  margin-bottom: 30px;
-  padding: 0px;
-}
-
-
 .navbar {
   background-color: #1e272e;
   width: 100%;
@@ -71,7 +19,7 @@ button:active{
   width: 3rem;
   height: 3rem;
   padding: 15px;
-  padding-left: 5%;
+  padding-left: 7%;
   float: left;
   margin: auto;
 }
@@ -80,13 +28,17 @@ button:active{
   cursor:pointer;
 }
 
+div.navbar-text {
+  margin-right: 4.5%;
+}
+
 .navbar a {
   font-family: "helvetica-rounded-bold";
   font-size: 2rem;
   text-decoration: none;
   color: white;
   padding: 20px;
-  padding-right: 5%;
+  padding-right: 2.5%;
   float: right;
   display: block;
 }
@@ -100,7 +52,8 @@ button:active{
 }
 
 .hero-page {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/img/family\ ukraine.PNG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../assets/img/family\ ukraine.PNG");
   height: 60%;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,15 +65,15 @@ button:active{
 }
 
 
-.hero-page h1 {
-  font-size: 114px;
+.text-hero h1 {
+  font-size: 130px;
   color: white;
   margin:0px;
 }
 
 .text-hero {
   padding-top:5%;
-  padding-left: 5%;
+  padding-left: 7%;
 }
 
 .text-hero p{
