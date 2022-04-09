@@ -7,13 +7,15 @@
 }
 
 body {
-  margin: 0px;
-  border: 0px;
+  height: 100%;
   padding: 0px;
+  margin: 0px;
+  border:0px;
 }
 
 .navbar {
-  overflow: hidden;
+  overflow:hidden;
+  z-index: 2;
   background-color: #1e272e;
   position: sticky;
   top: 0;
@@ -49,4 +51,24 @@ body {
   padding: 16px;
   margin-bottom: 30px;
   height: 1500px;
+}
+
+
+
+/* The hero image */
+.hero-page {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/ukraine\ destroyed.PNG");
+  
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: relative;
 }
