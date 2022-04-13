@@ -1,19 +1,21 @@
 @font-face {
   font-family: "helvetica-rounded-bold";
   src: url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff2")
-  format("woff2"),
-  url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
-  format("woff");
+      format("woff2"),
+    url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
+      format("woff");
 }
 
-/* NAVBAR */
+/* @@@@@@@@@@@@@@
+   @@@ NAVBAR @@@ 
+   @@@@@@@@@@@@@@ */
 .navbar {
   background-color: #1e272e;
   width: 100%;
   top: 0;
   z-index: 1;
   position: fixed;
-  overflow:hidden;
+  overflow: hidden;
 }
 .navbar img {
   width: 3rem;
@@ -24,7 +26,7 @@
   margin: auto;
 }
 .navbar img:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 div.navbar-text {
   margin-right: 4.5%;
@@ -41,102 +43,109 @@ div.navbar-text {
 }
 .navbar a:hover {
   color: #d92c2c;
-  transition: all .15s ease;
+  transition: all 0.15s ease;
 }
 .navbar a:active {
-  color:#ad2222;
+  color: #ad2222;
 }
 
-
-
-/* HERO PAGE */
+/* @@@@@@@@@@@@@@@@@
+   @@@ HERO PAGE @@@ 
+   @@@@@@@@@@@@@@@@@ */
 .hero-page {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/img/family\ ukraine.PNG");
   height: 60%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   margin: 0px;
   padding: 0px;
   border: 0px;
   padding-top: 3%;
   position: relative;
 }
-.text-hero h1 {
-  font-size: 130px;
-  color: white;
-  margin:0px;
-}
 .text-hero {
-  padding-top:5%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   padding-left: 7%;
 }
-.text-hero p{
+.text-hero h1 {
+  font-size: 8vmax;
+  color: white;
+  margin: 0px;
+}
+.text-hero p {
   color: #0669b2;
   font-size: 42px;
   margin-top: 15px;
   margin-bottom: 5%;
 }
 
-/*SUPPORT PAGE*/
+/* @@@@@@@@@@@@@@@@@@@@
+   @@@ SUPPORT PAGE @@@ 
+   @@@@@@@@@@@@@@@@@@@@ */
 div.support {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/img/image_support.png");
-    height: 55%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    overflow: hidden;
-    display: flex;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  overflow: hidden;
+  display: flex;
 }
 
-div.support img{
+div.support img {
   vertical-align: middle;
-  height:100%;
+  height: 100%;
   min-width: 30%;
   object-fit: contain;
 }
 
 div.text-support {
   margin-top: 7%;
-  margin:auto;
+  margin: auto;
   padding-left: 5%;
 }
 
 div.text-support h1 {
   font-size: 6vmax;
-  color:white;
-  margin:0px;
-  padding:0px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
 div.text-support p {
   font-size: 32px;
-  color:#0669b2;
+  color: #0669b2;
   padding-top: 2%;
   padding-bottom: 10%;
   margin: 0;
 }
 
-/* UKRAINE PAGE */
+/* @@@@@@@@@@@@@@@@@@@@
+   @@@ UKRAINE PAGE @@@ 
+   @@@@@@@@@@@@@@@@@@@@ */
 .ukraine {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
-  height: 100%;
+  height: 75%;
 }
 
-.grid-img-ukraine-01{ 
-  background-image: url("../assets/img/ukraine\ destroyed.PNG"); 
+.grid-img-ukraine-01 {
+  background-image: url("../assets/img/ukraine\ destroyed.PNG");
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
 .grid-img-ukraine-02 {
   background-image: url("../assets/img/_123545095_hi074346263.jpg");
@@ -145,15 +154,15 @@ div.text-support p {
   background-size: cover;
 }
 
-.grid-item{
+.grid-item {
   display: grid;
   grid-template-rows: 10% auto auto auto;
 }
-.grid-item h2{
+.grid-item h2 {
   font-size: 72px;
-  margin:0px;
+  margin: 0px;
   margin-left: 5%;
-  padding:0%;
+  padding: 0%;
 }
 .grid-item p {
   font-size: 32px;
@@ -164,5 +173,35 @@ div.text-support p {
   background-color: #1e272e;
 }
 
+/* @@@@@@@@@@@@@@
+   @@@ FOOTER @@@ 
+   @@@@@@@@@@@@@@ */
 
-/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #1e272e;
+  height: 25%;
+}
+
+.footer img {
+  height: 10vmax;
+  margin: auto;
+}
+
+.footer div {
+  color: white;
+  font-size: larger;
+  text-align: center;
+  margin: auto;
+}
+
+.footer-logos img {
+  height: 50px;
+  margin: 10px;
+  color: white;
+}
+
+.footer-logos:hover {
+  cursor: pointer;
+}
