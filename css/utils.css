@@ -55,3 +55,15 @@ span.red {
 span.bleu {
   color: #0669b2;
 }
+
+span.italic {
+  font-style: italic;
+}
+
+span.underline-red {
+  text-decoration: underline;
+}
+
+span.underline-red:hover {
+  text-decoration-color: #d92c2c;
+}

@@ -141,8 +141,8 @@ div.navbar-text {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-between;
-margin: 7%;
-margin-top: 0;
+  margin: 7%;
+  margin-top: 0;
 }
 
 .russie-card{
@@ -157,6 +157,66 @@ margin-top: 0;
   width: 25vmax;
 }
 
+/* @@@@@@@@@@@@@@@@@@@@@
+   @@@ ECONOMIE PAGE @@@ 
+   @@@@@@@@@@@@@@@@@@@@@ */
+
+.economie {
+  margin: 7%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.economie img {
+  width: 40vmax;
+}
+
+.economie-texte {
+  margin-left: 5%;
+}
+
+.economie-texte h1 {
+  font-size: 4.5vmax;
+}
+
+.economie-texte p {
+  font-size: 2vmax;
+  font-family: 'EB Garamond';
+  font-weight: 500;
+}
+
+.waves-01 {
+  transform: rotate(180deg);
+}
+
+/* @@@@@@@@@@@@@@@@@@
+   @@@ MONDE PAGE @@@ 
+   @@@@@@@@@@@@@@@@@@ */
+
+.monde {
+  margin: 7%;
+  margin-top: 7%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.monde img {
+  width: 40vmax;
+}
+
+.monde-texte {
+  margin-right: 2.5%;
+}
+
+.monde-texte h1 {
+  font-size: 4.5vmax;
+}
+
+.monde-texte p {
+  font-size: 2vmax;
+  font-family: 'EB Garamond';
+  font-weight: 500;
+}
 /* @@@@@@@@@@@@@@@@@@@@
    @@@ SUPPORT PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@@ */
