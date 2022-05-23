@@ -28,6 +28,7 @@
 .navbar img:hover {
   cursor: pointer;
 }
+
 div.navbar-text {
   margin-right: 4.5%;
 }
@@ -49,6 +50,59 @@ div.navbar-text {
   color: #ad2222;
 }
 
+@media (max-width: 1200px) {
+  .navbar {
+      background-color: #1e272e;
+      width: 100%;
+      height: 5rem;
+      top: 0;
+      z-index: 1;
+      position: fixed;
+      overflow: hidden;
+    }
+
+    .navbar img {
+      width: 3rem;
+      height: 3rem;
+      padding: 15px;
+      padding-left: 7%;
+      float: left;
+      margin: auto;
+    }
+
+  .navbar img:hover {
+    cursor: pointer;
+  }
+
+  .navbar-text {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 500px){
+  .navbar {
+      background-color: #1e272e;
+      width: 100%;
+      height: 5rem;
+      top: 0;
+      z-index: 1;
+      position: fixed;
+      overflow: hidden;
+    }
+  .navbar img {
+    width: 3rem;
+    height: 3rem;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .navbar img:hover {
+    cursor: pointer;
+  }
+  .navbar-text{
+    visibility: hidden;
+  }
+}
 /* @@@@@@@@@@@@@@@@@
    @@@ HERO PAGE @@@ 
    @@@@@@@@@@@@@@@@@ */
@@ -82,6 +136,17 @@ div.navbar-text {
   font-size: 42px;
   margin-top: 15px;
   margin-bottom: 5%;
+}
+
+@media (max-width: 500px){
+  .hero-page{
+    height: 60%;
+  }
+
+  .btn{
+    margin-top:20%;
+    margin-left: 14.5%;
+  }
 }
 
 /* @@@@@@@@@@@@@@@@@@@@
@@ -124,6 +189,23 @@ div.navbar-text {
 
 .color {
   background-color: #1e272e;
+}
+
+@media (max-width: 1200px){
+  .ukraine{
+    height: 60%;
+  }
+
+  .grid-item h2 {
+  font-size: 2.5rem;
+  margin: 0px;
+  margin-left: 5%;
+  padding: 0%;
+}
+.grid-item p {
+  font-size: 1.5rem;
+  margin-left: 5%;
+}
 }
 
 /* @@@@@@@@@@@@@@@@@@@
@@ -284,6 +366,7 @@ div.text-support p {
   height: 25%;
 }
 
+
 .footer img {
   height: 10vmax;
   margin: auto;
@@ -294,6 +377,9 @@ div.text-support p {
   font-size: larger;
   text-align: center;
   margin: auto;
+}
+.footer #google_translate_element {
+  font-size: small;
 }
 
 .footer-logos img {
