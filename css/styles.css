@@ -239,6 +239,38 @@ div.navbar-text {
   width: 25vmax;
 }
 
+@media (max-width: 1200px){
+  .russie-titre {
+      font-size: 5vmax;
+      text-align: center;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+  .russie-img-container {
+     display: grid;
+     grid-template-rows: auto auto auto;
+     grid-template-columns: 100%;
+     margin: 7%;
+     margin-top: 0;
+  }
+  
+    .russie-card {
+      background-color: #1e272e;
+      margin-bottom: 10%;
+    }
+  
+    .russie-card p {
+      font-size: 3vmax;
+      color: white;
+      margin-left: 5%;
+    }
+  
+    .russie-card img {
+      width: 100%;
+    }
+}
+
 /* @@@@@@@@@@@@@@@@@@@@@
    @@@ ECONOMIE PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@@@ */
@@ -266,6 +298,27 @@ div.navbar-text {
   font-size: 2vmax;
   font-family: 'EB Garamond';
   font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .economie {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 100%;
+}
+.economie img {
+  align-self: center;
+  width: 100%;
+}
+.economie-texte h1 {
+  font-size: 6vmax;
+}
+
+.economie-texte p {
+  font-size: 3.5vmax;
+  font-family: 'EB Garamond';
+  font-weight: 500;
+}
 }
 
 .waves-01 {
