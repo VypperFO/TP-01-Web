@@ -400,6 +400,7 @@ div.navbar-text {
         font-weight: 500;
     }
 }
+
 /* @@@@@@@@@@@@@@@@@@@@
    @@@ SUPPORT PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@@ */
@@ -445,6 +446,42 @@ div.text-support p {
     padding-top: 2%;
     padding-bottom: 10%;
     margin: 0;
+}
+
+@media (max-width: 850px) {
+    div.support {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.text-support h1 {
+        font-size: 10vmax;
+    }
+
+    div.text-support p {
+        font-size: 6vmax;
+    }
+}
+
+@media (max-width: 500px) {
+    div.support {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.text-support h1 {
+        font-size: 10vmax;
+    }
+
+    div.text-support p {
+        font-size: 6vmax;
+    }
+
+    div.support a {
+        justify-content: center;
+    }
 }
 
 /* @@@@@@@@@@@@@@
