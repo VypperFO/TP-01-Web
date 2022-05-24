@@ -145,7 +145,6 @@ div.navbar-text {
 
     .btn {
         margin-top: 20%;
-        margin-left: 14.5%;
     }
 }
 
@@ -241,7 +240,7 @@ div.navbar-text {
 
 @media (max-width: 1200px) {
     .russie-titre {
-        font-size: 5vmax;
+        font-size: 4vmax;
     }
 
     .russie-img-container {
@@ -367,14 +366,14 @@ div.navbar-text {
     }
 
     .monde-texte h1 {
-        font-size: 10vmax;
+        font-size: 6vmax;
     }
 
     .monde-texte h2 {
-        font-size: 7vmax;
+        font-size: 4.5vmax;
     }
     .monde-texte p {
-        font-size: 5vmax;
+        font-size: 3.5vmax;
     }
 }
 
@@ -428,6 +427,8 @@ div.text-support p {
 @media (max-width: 850px) {
     div.support {
         height: 80%;
+        padding-left: 2%;
+        padding-right: 2%;
         display: flex;
         flex-direction: column;
     }
@@ -449,11 +450,12 @@ div.text-support p {
     }
 
     div.text-support h1 {
-        font-size: 10vmax;
+        font-size: 8vmax;
+        justify-self: center;
     }
 
     div.text-support p {
-        font-size: 6vmax;
+        font-size: 4vmax;
     }
 
     div.support a {
