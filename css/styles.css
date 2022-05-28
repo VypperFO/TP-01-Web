@@ -1,242 +1,265 @@
 @font-face {
-  font-family: "helvetica-rounded-bold";
-  src: url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff2")
-      format("woff2"),
-    url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
-      format("woff");
+    font-family: "helvetica-rounded-bold";
+    src: url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff2")
+            format("woff2"),
+        url("../assets/font/helvetica-rounded-bold-5871d05ead8de-webfont.woff")
+            format("woff");
 }
 
 /* @@@@@@@@@@@@@@
    @@@ NAVBAR @@@ 
    @@@@@@@@@@@@@@ */
 .navbar {
-  background-color: #1e272e;
-  width: 100%;
-  top: 0;
-  z-index: 1;
-  position: fixed;
-  overflow: hidden;
+    background-color: #1e272e;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
 }
 .navbar img {
-  width: 3rem;
-  height: 3rem;
-  padding: 15px;
-  padding-left: 7%;
-  float: left;
-  margin: auto;
-}
-.navbar img:hover {
-  cursor: pointer;
-}
-
-div.navbar-text {
-  margin-right: 4.5%;
-}
-.navbar-text a {
-  font-family: "helvetica-rounded-bold";
-  font-size: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 20px;
-  padding-right: 2.5%;
-  float: right;
-  display: block;
-}
-.navbar a:hover {
-  color: #d92c2c;
-  transition: all 0.15s ease;
-}
-.navbar a:active {
-  color: #ad2222;
-}
-
-@media (max-width: 1200px) {
-  .navbar {
-      background-color: #1e272e;
-      width: 100%;
-      height: 5rem;
-      top: 0;
-      z-index: 1;
-      position: fixed;
-      overflow: hidden;
-    }
-
-    .navbar img {
-      width: 3rem;
-      height: 3rem;
-      padding: 15px;
-      padding-left: 7%;
-      float: left;
-      margin: auto;
-    }
-
-  .navbar img:hover {
-    cursor: pointer;
-  }
-
-  .navbar-text {
-    visibility: hidden;
-  }
-}
-
-@media (max-width: 500px){
-  .navbar {
-      background-color: #1e272e;
-      width: 100%;
-      height: 5rem;
-      top: 0;
-      z-index: 1;
-      position: fixed;
-      overflow: hidden;
-    }
-  .navbar img {
     width: 3rem;
     height: 3rem;
     padding: 15px;
+    padding-left: 7%;
+    float: left;
     margin: auto;
-  }
-  
-  .navbar img:hover {
+}
+.navbar img:hover {
     cursor: pointer;
-  }
-  .navbar-text{
-    visibility: hidden;
-  }
+}
+
+div.navbar-text {
+    margin-right: 4.5%;
+}
+.navbar-text a {
+    font-family: "helvetica-rounded-bold";
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    padding-right: 2.5%;
+    float: right;
+    display: block;
+}
+.navbar a:hover {
+    color: #d92c2c;
+    transition: all 0.15s ease;
+}
+.navbar a:active {
+    color: #ad2222;
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        background-color: #1e272e;
+        width: 100%;
+        height: 5rem;
+        top: 0;
+        z-index: 1;
+        position: fixed;
+        overflow: hidden;
+    }
+
+    .navbar img {
+        width: 3rem;
+        height: 3rem;
+        padding: 15px;
+        padding-left: 7%;
+        float: left;
+        margin: auto;
+    }
+
+    .navbar img:hover {
+        cursor: pointer;
+    }
+
+    .navbar-text {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        background-color: #1e272e;
+        width: 100%;
+        height: 5rem;
+        top: 0;
+        z-index: 1;
+        position: fixed;
+        overflow: hidden;
+    }
+    .navbar img {
+        width: 3rem;
+        height: 3rem;
+        padding: 15px;
+        margin: auto;
+    }
+
+    .navbar img:hover {
+        cursor: pointer;
+    }
+    .navbar-text {
+        visibility: hidden;
+    }
 }
 /* @@@@@@@@@@@@@@@@@
    @@@ HERO PAGE @@@ 
    @@@@@@@@@@@@@@@@@ */
 .hero-page {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/family\ ukraine.PNG");
-  height: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  padding-top: 3%;
-  position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../assets/img/family\ ukraine.PNG");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding-top: 3%;
+    position: relative;
 }
 .text-hero {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding-left: 7%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 7%;
 }
 .text-hero h1 {
-  font-size: 8vmax;
-  color: white;
-  margin: 0px;
+    font-size: 8vmax;
+    color: white;
+    margin: 0px;
 }
 .text-hero p {
-  color: #0669b2;
-  font-size: 42px;
-  margin-top: 15px;
-  margin-bottom: 5%;
+    color: #0669b2;
+    font-size: 42px;
+    margin-top: 15px;
+    margin-bottom: 5%;
 }
 
-@media (max-width: 500px){
-  .hero-page{
-    height: 60%;
-  }
+@media (max-width: 500px) {
+    .hero-page {
+        height: 60%;
+    }
 
-  .btn{
-    margin-top:20%;
-    margin-left: 14.5%;
-  }
+    .btn {
+        margin-top: 20%;
+    }
 }
 
 /* @@@@@@@@@@@@@@@@@@@@
    @@@ UKRAINE PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@@ */
 .ukraine {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  height: 75%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 75%;
 }
 
 .grid-img-ukraine-01 {
-  background-image: url("../assets/img/ukraine\ destroyed.PNG");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../assets/img/ukraine\ destroyed.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .grid-img-ukraine-02 {
-  background-image: url("../assets/img/_123545095_hi074346263.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../assets/img/_123545095_hi074346263.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .grid-item {
-  display: grid;
-  grid-template-rows: 20% auto auto auto;
+    display: grid;
+    grid-template-rows: 20% auto auto auto;
 }
 .grid-item h2 {
-  font-size: 72px;
-  margin: 0px;
-  margin-left: 5%;
-  padding: 0%;
+    font-size: 72px;
+    margin: 0px;
+    margin-left: 5%;
+    padding: 0%;
 }
 .grid-item p {
-  font-size: 32px;
-  margin: auto;
+    font-size: 32px;
+    margin: auto;
 }
 
 .color {
-  background-color: #1e272e;
+    background-color: #1e272e;
 }
 
-@media (max-width: 1200px){
-  .ukraine{
-    height: 60%;
-  }
+@media (max-width: 1200px) {
+    .ukraine {
+        height: 60%;
+    }
 
-  .grid-item h2 {
-  font-size: 2.5rem;
-  margin: 0px;
-  margin-left: 5%;
-  padding: 0%;
-}
-.grid-item p {
-  font-size: 1.5rem;
-  margin-left: 5%;
-}
+    .grid-item h2 {
+        font-size: 2.5rem;
+        margin: 0px;
+        margin-left: 5%;
+        padding: 0%;
+    }
+    .grid-item p {
+        font-size: 1.5rem;
+        margin-left: 5%;
+    }
 }
 
 /* @@@@@@@@@@@@@@@@@@@
    @@@ RUSSIE PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@ */
 
-.russie-titre{
-  font-size: 2vmax;
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.russie-titre {
+    font-size: 2vmax;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.russie-img-container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-between;
-  margin: 7%;
-  margin-top: 0;
+.russie-img-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin: 7%;
+    margin-top: 0;
 }
 
-.russie-card{
-  background-color:#1e272e;
+.russie-card {
+    background-color: #1e272e;
 }
-.russie-card p{
-  font-size: 1.5vmax;
-  color:white;
-  margin-left: 5%;
+.russie-card p {
+    font-size: 1.5vmax;
+    color: white;
+    margin-left: 5%;
 }
-.russie-card img{
-  width: 25vmax;
+.russie-card img {
+    width: 25vmax;
+}
+
+@media (max-width: 1200px) {
+    .russie-titre {
+        font-size: 4vmax;
+    }
+
+    .russie-img-container {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 100%;
+    }
+
+    .russie-card {
+        margin-bottom: 10%;
+    }
+
+    .russie-card p {
+        font-size: 3vmax;
+    }
+
+    .russie-card img {
+        width: 100%;
+    }
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@
@@ -244,32 +267,53 @@ div.navbar-text {
    @@@@@@@@@@@@@@@@@@@@@ */
 
 .economie {
-  margin: 7%;
-  display: grid;
-  grid-template-columns: auto auto;
+    margin: 7%;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .economie img {
-  align-self: center;
-  width: 40vmax;
+    align-self: center;
+    width: 40vmax;
 }
 
 .economie-texte {
-  margin-left: 5%;
+    margin-left: 5%;
 }
 
 .economie-texte h1 {
-  font-size: 4.5vmax;
+    font-size: 4.5vmax;
 }
 
 .economie-texte p {
-  font-size: 2vmax;
-  font-family: 'EB Garamond';
-  font-weight: 500;
+    font-size: 2vmax;
+    font-family: "EB Garamond";
+    font-weight: 500;
+}
+
+@media (max-width: 600px) {
+    .economie {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 100%;
+    }
+    .economie img {
+        align-self: center;
+        width: 100%;
+    }
+    .economie-texte h1 {
+        font-size: 6vmax;
+    }
+
+    .economie-texte p {
+        font-size: 3.5vmax;
+        font-family: "EB Garamond";
+        font-weight: 500;
+    }
 }
 
 .waves-01 {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 /* @@@@@@@@@@@@@@@@@@
@@ -277,82 +321,146 @@ div.navbar-text {
    @@@@@@@@@@@@@@@@@@ */
 
 .monde {
-  margin: 7%;
-  margin-top: 7%;
-  display: grid;
-  grid-template-columns: auto auto;
+    margin: 7%;
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 
 .monde img {
-  width: 40vmax;
-  align-self: center;
+    width: 40vmax;
+    align-self: center;
 }
 
 .monde-texte {
-  margin-right: 2.5%;
+    margin-right: 2.5%;
 }
 
 .monde-texte h1 {
-  margin: 0;
-  font-size: 5vmax;
+    margin: 0;
+    font-size: 5vmax;
 }
 
 .monde-texte h2 {
-  margin: 0;
-  margin-top: 50px;
-  font-size: 2.5vmax;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 2.5vmax;
 }
 .monde-texte p {
-  margin: 0;
-  font-size: 2vmax;
-  font-family: 'EB Garamond';
-  font-weight: 500;
+    margin: 0;
+    font-size: 2vmax;
+    font-family: "EB Garamond";
+    font-weight: 500;
 }
+
+@media (max-width: 850px) {
+    .monde {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+    }
+
+    .monde img {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .monde-texte h1 {
+        font-size: 6vmax;
+    }
+
+    .monde-texte h2 {
+        font-size: 4.5vmax;
+    }
+    .monde-texte p {
+        font-size: 3.5vmax;
+    }
+}
+
 /* @@@@@@@@@@@@@@@@@@@@
    @@@ SUPPORT PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@@ */
 div.support {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/image_support.png");
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  overflow: hidden;
-  display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../assets/img/image_support.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    overflow: hidden;
+    display: flex;
 }
 
 div.support img {
-  vertical-align: middle;
-  height: 100%;
-  min-width: 30%;
-  object-fit: contain;
+    vertical-align: middle;
+    height: 100%;
+    min-width: 30%;
+    object-fit: contain;
 }
 
 div.text-support {
-  margin-top: 7%;
-  margin: auto;
-  padding-left: 5%;
+    margin-top: 7%;
+    margin: auto;
+    padding-left: 5%;
 }
 
 div.text-support h1 {
-  font-size: 6vmax;
-  color: white;
-  margin: 0px;
-  padding: 0px;
+    font-size: 6vmax;
+    color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 div.text-support p {
-  font-size: 32px;
-  color: #0669b2;
-  padding-top: 2%;
-  padding-bottom: 10%;
-  margin: 0;
+    font-size: 32px;
+    color: #0669b2;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    margin: 0;
+}
+
+@media (max-width: 850px) {
+    div.support {
+        height: 80%;
+        padding-left: 2%;
+        padding-right: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.text-support h1 {
+        font-size: 10vmax;
+    }
+
+    div.text-support p {
+        font-size: 6vmax;
+    }
+}
+
+@media (max-width: 500px) {
+    div.support {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.text-support h1 {
+        font-size: 8vmax;
+        justify-self: center;
+    }
+
+    div.text-support p {
+        font-size: 4vmax;
+    }
+
+    div.support a {
+        justify-content: center;
+    }
 }
 
 /* @@@@@@@@@@@@@@
@@ -360,34 +468,56 @@ div.text-support p {
    @@@@@@@@@@@@@@ */
 
 .footer {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #1e272e;
-  height: 25%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #1e272e;
+    height: 25%;
 }
 
-
 .footer img {
-  height: 10vmax;
-  margin: auto;
+    height: 10vmax;
+    margin: auto;
 }
 
 .footer div {
-  color: white;
-  font-size: larger;
-  text-align: center;
-  margin: auto;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin: auto;
 }
 .footer #google_translate_element {
-  font-size: small;
+    font-size: small;
 }
 
 .footer-logos img {
-  height: 50px;
-  margin: 10px;
-  color: white;
+    height: 50px;
+    margin: 10px;
+    color: white;
 }
 
 .footer-logos:hover {
-  cursor: pointer;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .footer {
+        height: 35%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+
+    .footer img {
+        height: 14vmax;
+    }
+
+    .footer div {
+        font-size: 3vmax;
+    }
+
+    .footer-logos img {
+        height: 10vmax;
+        margin: 10px;
+        color: white;
+    }
 }
