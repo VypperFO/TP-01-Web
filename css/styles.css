@@ -196,13 +196,13 @@ div.navbar-text {
     }
 
     .grid-item h2 {
-        font-size: 2.5rem;
+        font-size: 3.5vmax;
         margin: 0px;
         margin-left: 5%;
         padding: 0%;
     }
     .grid-item p {
-        font-size: 1.5rem;
+        font-size: 2vmax;
         margin-left: 5%;
     }
 }
@@ -444,18 +444,18 @@ div.text-support p {
 
 @media (max-width: 500px) {
     div.support {
-        height: 60%;
+        height: 50%;
         display: flex;
         flex-direction: column;
     }
 
     div.text-support h1 {
-        font-size: 8vmax;
+        font-size: 5vmax;
         justify-self: center;
     }
 
     div.text-support p {
-        font-size: 4vmax;
+        font-size: 3vmax;
     }
 
     div.support a {
@@ -508,7 +508,7 @@ div.text-support p {
     }
 
     .footer img {
-        height: 14vmax;
+        height: 10vmax;
     }
 
     .footer div {
@@ -516,7 +516,7 @@ div.text-support p {
     }
 
     .footer-logos img {
-        height: 10vmax;
+        height: 5vmax;
         margin: 10px;
         color: white;
     }
