@@ -496,6 +496,10 @@ div.text-support p {
     color: white;
 }
 
+.footer-logos a {
+    text-decoration: none;
+}
+
 .footer-logos:hover {
     cursor: pointer;
 }
