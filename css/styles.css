@@ -469,13 +469,14 @@ div.text-support p {
 
 .footer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
     background-color: #1e272e;
     height: 25%;
 }
 
 .footer img {
-    height: 4vmax;
+    height: 5vmax;
     margin: auto;
 }
 
