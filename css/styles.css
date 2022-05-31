@@ -17,16 +17,16 @@
     position: fixed;
     overflow: hidden;
 }
-.navbar img {
+.navbar .logo {
     width: 3rem;
     height: 3rem;
     padding: 15px;
-    padding-left: 7%;
+    margin-left: 7%;
     float: left;
-    margin: auto;
 }
 .navbar img:hover {
     cursor: pointer;
+    background-color: #2a363f;
 }
 
 div.navbar-text {
@@ -500,8 +500,27 @@ div.text-support p {
     text-decoration: none;
 }
 
-.footer-logos:hover {
+.footer .globe {
+    width: 2.5vmax;
+    height: 2.5vmax;
+}
+
+.footer img:hover {
     cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.15s ease;
+}
+
+.footer .language{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.footer .lang:hover{
+    cursor: pointer;
+    color: #d92c2c;
+    transition: all 0.15s ease;
 }
 
 @media (max-width: 700px) {
