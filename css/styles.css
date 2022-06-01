@@ -118,6 +118,7 @@ div.navbar-text {
     padding-top: 3%;
     position: relative;
     background-attachment: fixed;
+    scroll-margin-top: 110px;
 }
 .text-hero {
     margin: 0;
