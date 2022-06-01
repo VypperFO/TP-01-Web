@@ -84,6 +84,7 @@ function changeFrench() {
     "Payment par BTC, ETC et USDT";
 
   localStorage.setItem("langue", "francais");
+  scrollTop();
 }
 
 function changeEnglish() {
@@ -153,6 +154,9 @@ function changeEnglish() {
   document.getElementById("support-p").innerHTML =
     "Payment by BTC, ETC and USDT";
   localStorage.setItem("langue", "english");
+
+  localStorage.setItem("langue", "english");
+  scrollTop();
 }
 
 function storeLan() {
@@ -163,6 +167,18 @@ function storeLan() {
   } else if (langueChoisit === "english") {
     changeEnglish();
   }
+}
+
+function scrollTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function scrollAction(anchorScroll) {
+  var divElement = document.getElementById(anchorScroll);
+  divElement.scroll({
+    top: divElement.scrollHeight, //scroll to the bottom of the element
+    behavior: "smooth", //auto, smooth, initial, inherit
+  });
 }
 
 window.onload = storeLan();
