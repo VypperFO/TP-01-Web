@@ -164,7 +164,7 @@ div.navbar-text {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     height: 75%;
-    scroll-margin-top: 6.5vmax;
+    scroll-margin-top: 110px;
 }
 
 .grid-img-ukraine-01 {
@@ -221,7 +221,7 @@ div.navbar-text {
    @@@ RUSSIE PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@ */
 .russie {
-    scroll-margin-top: 10vmax;
+    scroll-margin-top: 110px;
 }
 
 .russie-titre {
@@ -283,7 +283,7 @@ div.navbar-text {
     margin: 7%;
     display: grid;
     grid-template-columns: auto auto;
-    scroll-margin-top: 5vmax;
+    scroll-margin-top: 110px;
 }
 
 .economie img {
@@ -339,7 +339,7 @@ div.navbar-text {
     margin-top: 7%;
     display: grid;
     grid-template-columns: auto auto;
-    scroll-margin-top: 7vmax;
+    scroll-margin-top: 110px;
 }
 
 .monde img {
@@ -411,6 +411,7 @@ div.support {
     overflow: hidden;
     display: flex;
     background-attachment: fixed;
+    scroll-margin-top: 110px;
 }
 
 div.support img {
