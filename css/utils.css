@@ -70,3 +70,13 @@ span.underline-red {
 span.underline-red:hover {
     text-decoration-color: #d92c2c;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
