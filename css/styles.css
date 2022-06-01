@@ -62,10 +62,9 @@ div.navbar-text {
         overflow: hidden;
     }
 
-    .navbar img {
+    .navbar .logo {
         width: 3rem;
         height: 3rem;
-        padding: 15px;
         padding-left: 7%;
         float: left;
         margin: auto;
@@ -90,7 +89,7 @@ div.navbar-text {
         position: fixed;
         overflow: hidden;
     }
-    .navbar img {
+    .navbar .logo {
         width: 3rem;
         height: 3rem;
         padding: 15px;
@@ -146,6 +145,13 @@ div.navbar-text {
 
     .btn {
         margin-top: 20%;
+    }
+
+    .text-hero h1{
+        font-size: 7vmax;
+    }
+    .text-hero p {
+        font-size: 4vmax;
     }
 }
 
