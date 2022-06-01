@@ -118,6 +118,7 @@ div.navbar-text {
     border: 0px;
     padding-top: 3%;
     position: relative;
+    scroll-margin-top: 5vmax;
 }
 .text-hero {
     margin: 0;
@@ -141,6 +142,7 @@ div.navbar-text {
 @media (max-width: 500px) {
     .hero-page {
         height: 60%;
+        scroll-margin-top: 3rem;
     }
 
     .btn {
@@ -163,6 +165,7 @@ div.navbar-text {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     height: 75%;
+    scroll-margin-top: 4vmax;
 }
 
 .grid-img-ukraine-01 {
@@ -200,6 +203,7 @@ div.navbar-text {
 @media (max-width: 1200px) {
     .ukraine {
         height: 60%;
+        scroll-margin-top: 3rem;
     }
 
     .grid-item h2 {
@@ -217,6 +221,9 @@ div.navbar-text {
 /* @@@@@@@@@@@@@@@@@@@
    @@@ RUSSIE PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@ */
+.russie{
+    scroll-margin-top: 4.5vmax;
+}
 
 .russie-titre {
     font-size: 2vmax;
@@ -277,6 +284,7 @@ div.navbar-text {
     margin: 7%;
     display: grid;
     grid-template-columns: auto auto;
+    scroll-margin-top: 2vmax;
 }
 
 .economie img {
@@ -332,6 +340,7 @@ div.navbar-text {
     margin-top: 7%;
     display: grid;
     grid-template-columns: auto auto;
+    scroll-margin-top: 4vmax;
 }
 
 .monde img {
@@ -388,6 +397,7 @@ div.navbar-text {
    @@@ SUPPORT PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@@ */
 div.support {
+    scroll-margin-top: 20vmax;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../assets/img/image_support.png");
     height: 50%;

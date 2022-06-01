@@ -174,7 +174,7 @@ function scrollTop() {
 function scrollAction(anchorScroll) {
   document
     .getElementById(anchorScroll)
-    .scrollIntoView({ behavior: "smooth", block: "center" });
+    .scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 window.onload = storeLan();
