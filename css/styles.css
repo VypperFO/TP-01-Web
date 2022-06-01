@@ -34,7 +34,7 @@ div.navbar-text {
 }
 .navbar-text p {
     font-family: "helvetica-rounded-bold";
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-decoration: none;
     color: white;
     padding-right: 3%;
@@ -164,7 +164,7 @@ div.navbar-text {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     height: 75%;
-    scroll-margin-top: 4vmax;
+    scroll-margin-top: 5vmax;
 }
 
 .grid-img-ukraine-01 {
@@ -221,7 +221,7 @@ div.navbar-text {
    @@@ RUSSIE PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@ */
 .russie{
-    scroll-margin-top: 4.5vmax;
+    scroll-margin-top: 5vmax;
 }
 
 .russie-titre {
@@ -300,7 +300,7 @@ div.navbar-text {
 }
 
 .economie-texte p {
-    font-size: 2vmax;
+    font-size: 5vmax;
     font-family: "EB Garamond";
     font-weight: 500;
 }
@@ -339,7 +339,7 @@ div.navbar-text {
     margin-top: 7%;
     display: grid;
     grid-template-columns: auto auto;
-    scroll-margin-top: 4vmax;
+    scroll-margin-top: 5vmax;
 }
 
 .monde img {
