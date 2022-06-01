@@ -18,8 +18,8 @@
     overflow: hidden;
 }
 .navbar .logo {
-    width: 3vmax;
-    height: 3vmax;
+    width: 5rem;
+    height: 5rem;
     padding: 15px;
     margin-left: 7%;
     float: left;
@@ -34,7 +34,7 @@ div.navbar-text {
 }
 .navbar-text p {
     font-family: "helvetica-rounded-bold";
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color: white;
     padding-right: 3%;
