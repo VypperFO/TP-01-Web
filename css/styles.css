@@ -283,7 +283,7 @@ div.navbar-text {
     margin: 7%;
     display: grid;
     grid-template-columns: auto auto;
-    scroll-margin-top: 2vmax;
+    scroll-margin-top: 5vmax;
 }
 
 .economie img {
@@ -300,7 +300,7 @@ div.navbar-text {
 }
 
 .economie-texte p {
-    font-size: 5vmax;
+    font-size: 2vmax;
     font-family: "EB Garamond";
     font-weight: 500;
 }
