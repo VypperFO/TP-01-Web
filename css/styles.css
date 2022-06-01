@@ -117,7 +117,7 @@ div.navbar-text {
     border: 0px;
     padding-top: 3%;
     position: relative;
-    scroll-margin-top: 5vmax;
+    background-attachment: fixed;
 }
 .text-hero {
     margin: 0;
@@ -148,7 +148,7 @@ div.navbar-text {
         margin-top: 20%;
     }
 
-    .text-hero h1{
+    .text-hero h1 {
         font-size: 7vmax;
     }
     .text-hero p {
@@ -164,7 +164,7 @@ div.navbar-text {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     height: 75%;
-    scroll-margin-top: 5vmax;
+    scroll-margin-top: 6.5vmax;
 }
 
 .grid-img-ukraine-01 {
@@ -220,8 +220,8 @@ div.navbar-text {
 /* @@@@@@@@@@@@@@@@@@@
    @@@ RUSSIE PAGE @@@ 
    @@@@@@@@@@@@@@@@@@@ */
-.russie{
-    scroll-margin-top: 5vmax;
+.russie {
+    scroll-margin-top: 10vmax;
 }
 
 .russie-titre {
@@ -339,7 +339,7 @@ div.navbar-text {
     margin-top: 7%;
     display: grid;
     grid-template-columns: auto auto;
-    scroll-margin-top: 5vmax;
+    scroll-margin-top: 7vmax;
 }
 
 .monde img {
@@ -410,6 +410,7 @@ div.support {
     padding-bottom: 2.5%;
     overflow: hidden;
     display: flex;
+    background-attachment: fixed;
 }
 
 div.support img {
@@ -527,13 +528,12 @@ div.text-support p {
     transition: all 0.15s ease;
 }
 
-.footer .language{
+.footer .language {
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-
-.footer .lang:hover{
+.footer .lang:hover {
     cursor: pointer;
     color: #d92c2c;
     transition: all 0.15s ease;
