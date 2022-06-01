@@ -31,7 +31,7 @@
   </head>
   <body>
     <div class="navbar">
-      <div onclick="scrollAction(hero-page)">
+      <div onclick="scrollAction('hero-page')">
         <img class="logo" src="/assets/svg/LogoBlanc - ProjetWeb.svg" />
       </div>
       <div class="navbar-text">
@@ -65,14 +65,21 @@
             L'horreur présentée en chiffres et en images.
           </p>
           <div class="btn">
-            <a href="#ukraine">
-              <button tabindex="9" class="btn-full" id="btn-origin">
-                origine.
-              </button>
-            </a>
-            <a href="#support">
-              <button tabindex="10" class="btn-ghost">support.</button>
-            </a>
+            <button
+              tabindex="9"
+              class="btn-full"
+              id="btn-origin"
+              onclick="scrollAction('ukraine')"
+            >
+              origine.
+            </button>
+            <button
+              tabindex="10"
+              class="btn-ghost"
+              onclick="scrollAction('support')"
+            >
+              support.
+            </button>
           </div>
         </div>
       </div>
@@ -283,7 +290,7 @@
       <!-- Footer Page -->
       <div class="footer">
         <div>
-          <img
+          <img onclick="scrollAction('hero-page')"
             tabindex="45"
             src="/assets/svg/LogoBlanc - ProjetWeb.svg"
             alt="erreur de chargement"
@@ -306,12 +313,11 @@
               alt="erreur de chargement"
             />
           </a>
-          <a href="https://www.instagram.com/ukraine/" tabindex="52">
-            <img
+          <a href="https://www.instagram.com/ukraine/" >
+          <img tabindex="52"
               src="/assets/svg/instagram-brands.svg"
               alt="erreur de chargement"
             />
-          </a>
           <a href="https://twitter.com/mfa_ukraine" tabindex="53">
             <img
               src="/assets/svg/twitter-brands.svg"
