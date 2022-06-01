@@ -18,8 +18,8 @@
     overflow: hidden;
 }
 .navbar .logo {
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
     padding: 15px;
     margin-left: 7%;
     float: left;
@@ -32,21 +32,22 @@
 div.navbar-text {
     margin-right: 4.5%;
 }
-.navbar-text a {
+.navbar-text p {
     font-family: "helvetica-rounded-bold";
     font-size: 2rem;
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 2.5px;
     padding-right: 2.5%;
     float: right;
     display: block;
 }
-.navbar a:hover {
+.navbar p:hover {
+    cursor: pointer;
     color: #d92c2c;
     transition: all 0.15s ease;
 }
-.navbar a:active {
+.navbar p:active {
     color: #ad2222;
 }
 

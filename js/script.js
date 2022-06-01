@@ -25,7 +25,6 @@ function changeFrench() {
   document.getElementById("ukraine-menu").innerHTML = "ukraine.";
 
   //hero
-  let front = String("front");
   document.getElementById("hero-title").innerHTML =
     "L'Ukraine au <span class='red'>front</span>.";
   document.getElementById("hero-p").innerHTML =
@@ -153,7 +152,6 @@ function changeEnglish() {
     "<span class='red'>Ukraine</span>.";
   document.getElementById("support-p").innerHTML =
     "Payment by BTC, ETC and USDT";
-  localStorage.setItem("langue", "english");
 
   localStorage.setItem("langue", "english");
   scrollTop();
@@ -174,11 +172,9 @@ function scrollTop() {
 }
 
 function scrollAction(anchorScroll) {
-  var divElement = document.getElementById(anchorScroll);
-  divElement.scroll({
-    top: divElement.scrollHeight, //scroll to the bottom of the element
-    behavior: "smooth", //auto, smooth, initial, inherit
-  });
+  document
+    .getElementById(anchorScroll)
+    .scrollIntoView({ behavior: "smooth", block: "center" });
 }
 
 window.onload = storeLan();
