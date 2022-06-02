@@ -291,6 +291,16 @@ div.navbar-text {
     display: grid;
     grid-template-columns: auto auto;
     scroll-margin-top: 110px;
+
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.economie.active {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .economie img {
