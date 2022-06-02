@@ -50,7 +50,7 @@ div.navbar-text {
     color: #ad2222;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1050px) {
     .navbar {
         background-color: #1e272e;
         width: 100%;
@@ -117,7 +117,7 @@ div.navbar-text {
     border: 0px;
     padding-top: 3%;
     position: relative;
-    background-attachment: fixed;
+    background-attachment:fixed;
     scroll-margin-top: 110px;
 }
 .text-hero {
@@ -142,18 +142,24 @@ div.navbar-text {
 @media (max-width: 500px) {
     .hero-page {
         height: 60%;
-        scroll-margin-top: 3rem;
+        background-attachment:local;
     }
 
     .btn {
-        margin-top: 20%;
+        margin-top:20%;
     }
 
     .text-hero h1 {
-        font-size: 7vmax;
+        font-size: 8vmax;
     }
     .text-hero p {
         font-size: 4vmax;
+        padding:0;
+    }
+    .hero-page button{
+        font-size: 5vmax;
+        width: 93%;
+        height: 75px;
     }
 }
 
@@ -463,23 +469,26 @@ div.text-support p {
 
 @media (max-width: 500px) {
     div.support {
-        height: 50%;
+        height: 55%;
         display: flex;
         flex-direction: column;
+        background-attachment:local;
     }
 
     div.text-support h1 {
-        font-size: 5vmax;
+        font-size: 8vmax;
         justify-self: center;
     }
 
     div.text-support p {
-        font-size: 3vmax;
+        font-size: 4vmax;
     }
 
-    div.support a {
-        justify-content: center;
+    .support button {
+        font-size: 5vmax;
+        width: 97%;
     }
+   
 }
 
 /* @@@@@@@@@@@@@@
